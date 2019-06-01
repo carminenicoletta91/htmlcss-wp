@@ -1,0 +1,130 @@
+/*settaggi generali corpo pagina */
+body{
+ background-image: url("sfondo.jpg");
+ background-size:cover;
+}
+*{
+ margin:0;
+ padding:0;
+}
+/*fine settaggi generali*/
+/*settaggio blocco principale contenente tutti gli
+ elementi della mia pagina*/
+.setgeneral{
+ height:1300px;
+ width:80%;
+ margin: auto;
+}
+/*fine setteggio blocco principale*/
+/*sezione 1 header */
+header{
+ position:relative;
+ height:20%;
+ width:100%;
+ background-image: url("temaheader.jpg");
+ background-size: cover;
+ border:solid 3px white;
+ box-sizing: border-box;
+ margin-top:10px;
+}
+h1{
+  position:absolute;
+  font-family:cursive;
+  font-size:2.5em;
+  color:white;
+  left:50%;
+  top:40%;
+  transform:translate(-50%,-40%);
+  border:solid 3px white;
+  padding-left:12px;
+  padding-right:12px;
+  box-sizing:border-box;
+}
+h2{
+  position:absolute;
+  font-family:cursive;
+  font-size:1em;
+  color:white;
+  left:50%;
+  top:90%;
+  transform:translate(-50%,-90%);
+}
+/*fine sezione 1*/
+/*settaggio menu posto sotto l'header*/
+.setmenu{
+ background-color:#4D4D4D;
+ height:5%;
+ width:100%;
+}
+li{
+ float: left;
+ list-style: none;
+ color:white;
+ text-align: center;
+ margin-left:65px;
+ margin-top:20px;
+}
+.setmenu::after{
+ content:"";
+ display: table;
+ clear: both;
+}
+/*fine settaggio menu*/
+/*inizio settaggi contenuto principale della pagina*/
+.corpocentro{
+ height:65%;
+ width:100%;
+}
+.corpocentro::after{
+content:"";
+display: table;
+clear: both;
+}
+aside{
+ background-color:red;
+ height:60%;
+ width:25%;
+ float: left;
+}
+
+section{
+ background-color:green;
+ height:80%;
+ width:50%;
+ float:left;
+}
+.widget{
+width:100%;
+height:100%;
+}
+.widget::after{
+content:"";
+display:table;
+clear: both;
+}
+.dxtop{
+ background-color:white;
+ height:25%;
+ width:25%;
+ float: left;
+}
+.dxcen{
+ background-color:blue;
+ height:25%;
+ width:25%;
+ float: left;
+}
+.dxbottom{
+ background-color:brown;
+ height:25%;
+ width:25%;
+ float:left;
+}
+/*fine settaggi contenuto principale*/
+/*settaggio del footer*/
+footer{
+ background-color:pink;
+ height:10%;
+ width:100%;
+}
+/*fine settaggio footer*/
